@@ -1,0 +1,184 @@
+@media (width:1280px) {
+    footer{
+      left: -31.2%;
+    }
+  }
+  
+  
+@media (max-width:768px) {
+  .header_area {
+    display: none;
+  }
+  .border-page{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 200vh;
+    z-index: 1;
+  }
+  .Main-item-3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+  }
+}
+
+@media (max-width:480px) {
+  .breadcrumb-Menu{
+    display: contents;
+  }
+  ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #42A7C2;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  .tabcontent{
+    display: none;
+  }
+
+  .Controller .header .Home{
+    width: 40%;
+    display: flex;
+    float: left;
+  }
+  
+  .Controller .header .Home img{
+    padding-left: 10px;
+  }
+  
+  .Controller .header .Home a{
+    color: #7B7B7B;
+    font-size: 14px;
+  }
+  
+  .Controller .header .Login{
+    width: 60%;
+    float: right;
+    display: flex;
+  }
+  
+  .Controller .header .Login img{
+    padding-left: 12px;
+  }
+  
+  .Controller .header .Login a{
+    padding-left: 20px;
+    color: #7B7B7B;
+    font-size: 14px;
+  }
+
+  .Sreach{
+    margin: 18px 0 10px 0px;
+    padding: 20px 0 20px 15px;
+    background-color: #EAF1F7;
+    border-radius: 50px;
+  }
+
+  .Sreach .input-group{
+    display: block;
+    align-items: center;
+  }
+
+  .Sreach .input-group label{
+    padding-right: 52px;
+  }
+  
+  .Sreach .input-group button{
+    float: right;
+    margin: 15px 15px 15px;
+    padding: 10px 20px;
+    background-color: #42A7C2;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .Sreach .input-block {
+    margin: 10px 0;
+    margin-right: 13px;
+    position: relative;
+    width: auto;
+    border: 1px solid #CED4DA;
+    border-radius: 50px;
+    overflow: hidden;
+  
+  }
+  
+  .Sreach .input-block img{
+    position: absolute;
+    padding: 16px 0 16px 20px;
+  }
+  
+  .Sreach .input-block input{
+    border: none;
+    outline: none;
+    width: 23rem;
+    height: 50px;
+    padding-left: 48px;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #AFAFAF;
+  }
+
+  .border-page{
+    width: 357px;
+    height: 200vh;
+    z-index: 1;
+  }
+  .Main-item-3{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px;
+    justify-content: center;
+  }
+  .bd-item-3{
+    margin: auto;
+  }
+  .Main-item-4{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 16px;
+  }
+  .Gruop-item-2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 16px;
+  }
+  .Main-item-2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 16px;
+  }
+  .bd-item-4{
+    margin: auto;
+  }
+  footer{
+    left: -2.2%;
+    padding: 0;
+  }
+  footer p{
+    margin: 20px 45px 20px 45px;
+  }
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon/Group 23066.svg" type="image/png">
+    <title>Sales Score</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+</head>
+<body>
+    <div class="ps-rel">
+        <header class="header_area">
+            <div class="logo_h">
+                <a href="index.html"><img src="img/icon/アートワーク 7.svg" width="163.32px" height="54.11" alt=""></a>
+            </div>
+            <p class="bg-hd-txt">サポートサイト</p>
+            <div class="collapse navbar-collapse offset">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">検査結果画面の解説<i class='bx bx-chevron-right'></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">主な機能<i class='bx bx-chevron-right'></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">利用シーン別ガイド<i class='bx bx-chevron-right'></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">初めてご利用の方へ<i class='bx bx-chevron-right'></a></i></li>
+                    <li class="nav-item"><a class="nav-link" href="#">FAQ<i class='bx bx-chevron-right'></i></a></li>
+                </ul>
+            </div>
+        </header>
+        <!--Container Main start-->
+        <div class="border-page">
+            <section>
+                <div class="Controller">
+                    <div class="header">
+                        <div class="Home">
+                            <a href="#"><img src="img/icon/fa-house.svg" alt="">トップ</a>
+                        </div>
+                        <div class="Login">
+                            <a href="#">ログイン<img src="img/icon/Login.svg" alt=""></a>
+                            <a href="#">ログイン<img src="img/icon/email.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Sreach">
+                    <div class="input-group">
+                        <label>どんな事でお困りですか？</label>
+                        <div class="d-flex">
+                            <div class="input-block">
+                                <img src="img/icon/fa-solid.svg" alt="">
+                                <input type="text" placeholder="キーワードを入力">
+                            </div>
+                            <button><span>検</span><span>索</span></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--
+                - Trong thời gian thực hiện bài test tôi thực sự không thể hiểu lưu ý thứ 5 thực hiện 
+                "Chức năng đóng mở breadcrumb thực hiện bằng Javascript" là như thế nào.
+                - Vì trong thời gian coding tôi dựa vào chức năng của Desktop Preview của ADO XD để thực hiện coding nên đến công đoạn coding
+                thực hiện responsive để không bị vỡ layout trên màn hình smartphone vì không hiểu rõ cách thức hoạt động thế nào và sợ bị phá vỡ 
+                cấu trúc ban đầu nên tôi đã comment dòng code này lại.
+
+                - Tôi đã code breadcrumb-Menu và một đoạn script bên dưới để mô tả sự "Đóng mở mà tôi hiểu"
+                - Nó sẽ Hiện thị và đóng mở section khi kích sang 1 <li> khác. id defaultOpen sẽ tự động mở đầu tiên và nhấn sang <li> khác nó 
+                sẽ chạy đến 1 section mới và đóng section cũ lại.
+            
+                <div class="breadcrumb-Menu">
+                    <ul class="breadcrumb">
+                        <li class="tablinks" onclick="openMenu(event, '検査結果画面の解説')" id="defaultOpen" ><a href="#">検査結果画面の解説</a></li>
+                        <li class="tablinks" onclick="openMenu(event, '主な機能')"><a href="#">主な機能</a></li>
+                        <li class="tablinks" onclick="openMenu(event, '利用シーン別ガイド')"><a href="#">利用シーン別ガイド</a></li>
+                        <li><a href="#">初めてご利用の方へ</a></li>
+                        <li><a href="#">FAQ</a></li>
+                      </ul>
+                </div>
+
+                <div id="検査結果画面の解説" class="tabcontent">
+                    <section>
+                        Nội dung
+                    </section
+                </div>
+
+                <div id="主な機能" class="tabcontent">
+                    <section>
+                        Nội dung
+                    </section
+                </div>
+            -->
+
+            <section>
+                <div class="breadcrumb-Menu">
+                    <ul class="breadcrumb">
+                        <li><a href="#">検査結果画面の解説</a></li>
+                        <li><a href="#">主な機能</a></li>
+                        <li><a href="#">利用シーン別ガイド</a></li>
+                        <li><a href="#">初めてご利用の方へ</a></li>
+                        <li><a href="#">FAQ</a></li>
+                      </ul>
+                </div>
+            </section>
+
+            <section class="section-mr-b-80">
+                <div class="Banner-item d-flex">
+                    <img src="img/Banner.svg" alt="">
+                    <div class="txt-banner">
+                        <h2>利用シーン別ガイド</h2>
+                        <p>SALES SCOREを様々なシーンでご活用いただく方法をご紹介します。</p>
+                    </div>
+                </div>
+                <div class="mt-22">
+                    <div class="Main-item-3">
+                        <button class="bd-item-3">
+                            <img class="mt-20" src="img/icon/chart.svg" alt="">
+                            <p class="txt-16-cl mt-15">受検者の営業活動の特徴を<br>
+                                見える化したい</p>
+                        </button>
+                        <button class="bd-item-3">
+                            <img class="mt-22" src="img/icon/user.svg" alt="">
+                            <p class="txt-16-cl mt-15">ポテンシャルの高い人材を<br>
+                                採用したい</p>
+                        </button>
+                        <button class="bd-item-3">
+                            <img class="mt-20" src="img/icon/chart-up.svg" alt="">
+                            <p class="txt-16-cl mt-15">離職率を改善したい</p>
+                        </button>
+                        <button class="bd-item-3">
+                            <img class="mt-29" src="img/icon/lookup.svg" alt="">
+                            <p class="txt-16-cl mt-4">成績優秀層を分析したい</p>
+                        </button>
+                        <button class="bd-item-3">
+                            <img class="mt-24" src="img/icon/door.svg" alt="">
+                            <p class="txt-16-cl mt-5">自社の特徴を理解したい</p>
+                        </button>
+                        <button class="bd-item-3">
+                            <img class="mt-29" src="img/icon/mail.svg" alt="">
+                            <p class="txt-16-cl mt-4">社員のコミュニケーションを<br>
+                                改善したい</p>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-mr-b-96">
+                <div class="Banner-item d-flex">
+                    <img src="img/アートワーク 8.svg" alt="">
+                    <div class="txt-banner">
+                        <h2>検査結果画面の解説</h2>
+                        <p>SALES SCOREのアウトプット項目について紹介します。</p>
+                    </div>
+                </div>
+                <div class="mt-22">
+                    <div class="subTile">
+                        <p>適性検査<span>のアウトプット</span></p>
+                    </div>
+                    <div class="Main-item-4">
+                        <button class="bd-item-4">
+                            <img class="mt-20" src="img/Group 47503.svg" alt="">
+                            <p class="txt-16-cl mt-15">データサマリー</p>
+                        </button>
+                        <button class="bd-item-4">
+                            <img class="mt-22" src="img/Group 47547.svg" alt="">
+                            <p class="txt-16-cl mt-15">データ詳細</p>
+                        </button>
+                        <button class="bd-item-4">
+                            <img class="mt-20" src="img/Group 47550.svg" alt="">
+                            <p class="txt-16-cl mt-15">データ比較</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="mt-50">
+                    <div class="subTile-line13Pt">
+                        <p>企業傾向分析</p>
+                    </div>
+                    <div class="Main-item-4">
+                        <button class="bd-item-4">
+                            <img class="mt-20" src="img/Group 47553.svg" alt="">
+                            <p class="txt-16-cl mt-15">全体比較</p>
+                        </button>
+                        <button class="bd-item-4">
+                            <img class="mt-22" src="img/Group 47556.svg" alt="">
+                            <p class="txt-16-cl mt-15">営業タイプ傾向</p>
+                        </button>
+                        <button class="bd-item-4">
+                            <img class="mt-20" src="img/Group 47557.svg" alt="">
+                            <p class="txt-16-cl mt-15">High-Low分析</p>
+                        </button>
+                        <button class="bd-item-4">
+                            <img class="mt-20" src="img/Group 47558.svg" alt="">
+                            <p class="txt-16-cl mt-15">構成比比較</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="mt-60">
+                    <div class="subTile-line13Pt">
+                        <p>検査結果詳細</p>
+                    </div>
+                    <div class="Main-item-4">
+                        <button class="bd-item-4">
+                            <img class="mt-20" src="img/Group 47565.svg" alt="">
+                            <p class="txt-16-cl mt-15">表示される予測値</p>
+                        </button>
+                        <button class="bd-item-4">
+                            <img class="mt-22" src="img/Group 47563.svg" alt="">
+                            <p class="txt-16-cl mt-15">表示される営業タイプ</p>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-mr-b-154">
+                <div class="Banner-item d-flex">
+                    <img src="img/アートワーク 39.svg" alt="">
+                    <div class="txt-banner">
+                        <h2>主な機能</h2>
+                        <p>SALES SCOREの利用方法及び、ツールに表示される項目について紹介します。</p>
+                    </div>
+                </div>
+                <div class="Gruop-item-2 mt-22 d-flex gap-15">
+                    <div class="Container-title">
+                        <div class="subTile-2">
+                            <p>管理者</p>
+                        </div>
+                        <div class="Main-item-2">
+                            <div class="bd-item-2">
+                                <p class="txt-16-cl">・管理者の登録・編集</p>
+                                <p class="txt-16-cl">・表示される応募者情報</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Container-title">
+                        <div class="subTile-2">
+                            <p>従業員</p>
+                        </div>
+                        <div class="Main-item-2">
+                            <div class="bd-item-2">
+                                <p class="txt-16-cl">・従業員の登録・編集</p>
+                                <p class="txt-16-cl">・表示される従業員情報</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="Gruop-item-2 mt-22 d-flex gap-15">
+                    <div class="Container-title">
+                        <div class="subTile-2">
+                            <p>応募者</p>
+                        </div>
+                        <div class="Main-item-2">
+                            <div class="bd-item-2">
+                                <p class="txt-16-cl">・従業員の登録・編集</p>
+                                <p class="txt-16-cl">・表示される応募者情報</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Container-title">
+                        <div class="subTile-2-40pt">
+                            <p>実績データの登録</p>
+                        </div>
+                        <div class="Main-item-2">
+                            <div class="bd-item-2">
+                                <p class="txt-16-cl">・実績の登録・編集</p>
+                                <p class="txt-16-cl">・分析対象範囲の指定</p>
+                                <p class="txt-16-cl">・成績区分の指定</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="Gruop-item-2 mt-22 d-flex gap-15">
+                    <div class="Container-title">
+                        <div class="subTile-2-18pt">
+                            <p>適性検査</p>
+                        </div>
+                        <div class="Main-item-2">
+                            <div class="bd-item-2">
+                                <p class="txt-16-cl">・適性検査推奨環境</p>
+                                <p class="txt-16-cl">・受検メールの送信</p>
+                                <p class="txt-16-cl">・ＵＲＬの発行</p>
+                                <p class="txt-16-cl">・受検者のステータス</p>
+                                <p class="txt-16-cl">・検査実施項目</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Container-title">
+                        <div class="subTile-2-45pt">
+                            <p><span style="letter-spacing: -3px;">ダッシュボード</span>機能</p>
+                        </div>
+                        <div class="Main-item-2">
+                            <div class="bd-item-2">
+                                <p class="txt-16-cl">・実績データ分析機能</p>
+                                <p class="txt-16-cl">・運用サポート機能</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="Gruop-item-2 mt-22 d-flex">
+                    <div class="Container-title">
+                        <div class="subTile-2-30pt">
+                            <p>契約について</p>
+                        </div>
+                        <div class="Main-item-2">
+                            <div class="bd-item-2">
+                                <p class="txt-16-cl">・契約情報の確認</p>
+                                <p class="txt-16-cl">・解約の方法</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p>Copyright © 2022 SALES SCORE All Right Reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        function openMenu(evt, menuName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(menuName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+
+        document.getElementById("defaultOpen").click();
+    </script>
+
+</body>
+</html>

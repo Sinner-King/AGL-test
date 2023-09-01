@@ -1,0 +1,522 @@
+:root {
+  --main-color: #42A7C2;
+  --main-font: 'Noto Sans JP', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+p {
+  font-family: var(--main-font);
+}
+
+.txt-16-cl{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
+  color: #42A7C2;
+  font-weight: 500;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.m0{
+  margin: 0;
+}
+.mt-4{
+  margin-top: 4px;
+}
+
+.mt-5{
+  margin-top: 5px;
+}
+
+.mt-15{
+  margin-top: 15px;
+}
+
+.mt-16{
+  margin-top: 16px;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.mt-22{
+  margin-top: 22px;
+}
+
+.mt-24{
+  margin-top: 24px;
+}
+
+.mt-29{
+  margin-top: 29px;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+
+.mt-60{
+  margin-top: 60px;
+}
+
+.gap-15{
+  gap: 15px;
+}
+
+body {
+    position: relative;
+    line-height: normal;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    overflow-x: hidden;
+  }
+
+section {
+  background: #fff;
+}
+
+.section-mr-b-80 {
+  margin-bottom: 80px;
+}
+
+.section-mr-b-96 {
+  margin-bottom: 96px;
+}
+
+.section-mr-b-154 {
+  margin-bottom: 154px;
+}
+
+.ps-rel{
+  position: relative;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.col-1{
+  margin-left: -100px;
+  width: 69.666667%;
+}
+
+.d-flex{
+    display: flex;
+}
+/*============== header css =============*/
+.header_area {
+    position: fixed;
+    top: 10px;
+    left: 4%;
+    width: 220px;
+    height: auto;
+    border: 1px solid #E1E8EF;
+    z-index: 100;
+    display: block;
+    place-items: center;
+  }
+
+.logo_h{
+    margin: 32px 31px 17.9px 25.7px;
+}
+
+.bg-hd-txt{
+    margin: 0 23px 27px 22px;
+    padding: 8px 1.4rem 11px 1.6rem;
+    background-color: #42A7C2;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.navbar-nav{
+    display: block;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-nav .nav-item{
+  padding: 25px 21px 25px 19px;
+}
+
+.navbar-nav i{
+  padding: auto 0;
+  float: right;
+  color: #42A7C2;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nav-link{
+  font-size: 16px;
+  color: #333333;
+}
+/*============== end header css =============*/
+/*============== body css =============*/
+.border-page{
+  position: absolute;
+  top: 0;
+  left: 22.6%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+.Controller{
+  width: 100%;
+  padding-top: 15px;
+}
+
+.header{
+  display: flex;
+}
+
+.Controller .header .Home{
+  width: 85%;
+  display: flex;
+  float: left;
+}
+
+.Controller .header .Home img{
+  padding-left: 10px;
+}
+
+.Controller .header .Home a{
+  color: #7B7B7B;
+  font-size: 14px;
+}
+
+.Controller .header .Login{
+  width: 27.9%;
+  float: right;
+  display: flex;
+}
+
+.Controller .header .Login img{
+  padding-left: 16px;
+}
+
+.Controller .header .Login a{
+  padding-left: 25px;
+  color: #7B7B7B;
+  font-size: 14px;
+}
+
+.Sreach{
+  margin: 18px 0 48px 0px;
+  padding: 20px 100px 20px 85px;
+  background-color: #EAF1F7;
+  border-radius: 50px;
+}
+
+.Sreach .input-group{
+  display: flex;
+  align-items: center;
+}
+
+.Sreach .input-group label{
+  padding-right: 52px;
+  letter-spacing: -3px;
+}
+
+.Sreach .input-group button{
+  padding: 15px 31px;
+  background-color: #42A7C2;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 3px;
+  border: none;
+  border-radius: 10px;
+}
+
+.Sreach .input-block {
+  margin-right: 13px;
+  position: relative;
+  width: auto;
+  border: 1px solid #CED4DA;
+  border-radius: 50px;
+  overflow: hidden;
+
+}
+
+.Sreach .input-block img{
+  position: absolute;
+  padding: 16px 0 16px 20px;
+}
+
+.Sreach .input-block input{
+  border: none;
+  outline: none;
+  width: 23rem;
+  height: 50px;
+  padding-left: 48px;
+  font-size: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #AFAFAF;
+}
+
+.txt-banner{
+  display: grid;
+  place-items: left;
+  padding-left: 20px;
+}
+
+.txt-banner h2{
+  font-family: var(--main-font);
+  font-size: 26px;
+  color: var(--main-color);
+  margin: 32px 0 0px;
+  letter-spacing: -1px;
+}
+
+.txt-banner p{
+  margin-top: 0px;
+  font-size: 16px;
+  letter-spacing: -1px;
+}
+
+.Main-item-3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+}
+
+.bd-item-3{
+  width: 300px;
+  height: 145px;
+  border: 1px solid #42A7C2;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.Main-item-4{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 16px;
+}
+
+.bd-item-4{
+  width: 220px;
+  height: 160px;
+  border: none;
+  background-color: #EAF1F7;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.subTile {
+  margin: 30px 0 20px;
+  color: var(--main-color);
+  font-size: 20px;
+  border: none;
+  border-top: 1px solid var(--main-color);
+  background: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.subTile span{
+  letter-spacing: -4px;
+}
+
+.subTile::before {
+  content: '';
+  width: 0%;
+  height: 4px;
+  background: var(--main-color);
+  display: block;
+  transition: 0.5s;
+  width: 25%;
+  margin-bottom: 22px;
+}
+
+.subTile-line13Pt {
+  margin: 30px 0 20px;
+  color: var(--main-color);
+  font-size: 20px;
+  border: none;
+  border-top: 1px solid var(--main-color);
+  background: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.subTile-line13Pt::before {
+  content: '';
+  width: 0%;
+  height: 4px;
+  background: var(--main-color);
+  display: block;
+  transition: 0.5s;
+  width: 13%;
+  margin-bottom: 22px;
+}
+
+.subTile-2 {
+  margin: 30px 0 20px;
+  width: 457px;
+  color: var(--main-color);
+  font-size: 20px;
+  border: none;
+  border-top: 1px solid var(--main-color);
+  background: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.subTile-2::before {
+  content: '';
+  width: 0%;
+  height: 4px;
+  background: var(--main-color);
+  display: block;
+  transition: 0.5s;
+  width: 13%;
+  margin-bottom: 22px;
+}
+
+.subTile-2-18pt {
+  margin: 30px 0 20px;
+  width: 457px;
+  color: var(--main-color);
+  font-size: 20px;
+  border: none;
+  border-top: 1px solid var(--main-color);
+  background: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.subTile-2-18pt::before {
+  content: '';
+  width: 0%;
+  height: 4px;
+  background: var(--main-color);
+  display: block;
+  transition: 0.5s;
+  width: 18%;
+  margin-bottom: 22px;
+}
+
+.subTile-2-30pt {
+  margin: 30px 0 20px;
+  width: 457px;
+  color: var(--main-color);
+  font-size: 20px;
+  border: none;
+  border-top: 1px solid var(--main-color);
+  background: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.subTile-2-30pt::before {
+  content: '';
+  width: 0%;
+  height: 4px;
+  background: var(--main-color);
+  display: block;
+  transition: 0.5s;
+  width: 30%;
+  margin-bottom: 22px;
+}
+
+.subTile-2-40pt {
+  margin: 30px 0 20px;
+  width: 457px;
+  color: var(--main-color);
+  font-size: 20px;
+  border: none;
+  border-top: 1px solid var(--main-color);
+  background: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.subTile-2-40pt::before {
+  content: '';
+  width: 0%;
+  height: 4px;
+  background: var(--main-color);
+  display: block;
+  transition: 0.5s;
+  width: 40%;
+  margin-bottom: 22px;
+}
+
+.subTile-2-45pt {
+  margin: 30px 0 20px;
+  width: 457px;
+  color: var(--main-color);
+  font-size: 20px;
+  border: none;
+  border-top: 1px solid var(--main-color);
+  background: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.subTile-2-45pt::before {
+  content: '';
+  width: 0%;
+  height: 4px;
+  background: var(--main-color);
+  display: block;
+  transition: 0.5s;
+  width: 45%;
+  margin-bottom: 22px;
+}
+
+.Container-title{
+  display: block;
+}
+
+.Gruop-item-2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 16px;
+}
+
+.Main-item-2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 16px;
+}
+
+.bd-item-2{
+  display: block;
+  place-items: left;
+  cursor: pointer;
+}
+.breadcrumb-Menu{
+  display: none;
+}
+
+/*============== End body css =============*/
+
+footer{
+  position: inherit;
+  padding: 30px 0;
+  width: 100vw;
+  left: -37.4%;
+  background-color: #333333;
+  color: #fff;
+  font-size: 12px;
+  z-index: 1;
+}
+
+footer p{
+  margin-left: 66%;
+}
